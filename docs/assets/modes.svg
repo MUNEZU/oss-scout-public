@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+  <title id="title">Decision mode vs Discovery mode</title>
+  <desc id="desc">Decision answers "should I build this myself?" by checking complete products, splitting the goal into capabilities and ending with USE EXISTING, ASSEMBLE or BUILD THE GAP. Discovery answers "which OSS fits this best?" by searching products, niche matches and frameworks and returning a 5 to 10 project shortlist ranked by Match Score, never by stars.</desc>
+
+  <rect width="1200" height="440" rx="24" fill="#11161c"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">
+    <g id="decision" transform="translate(60 48)">
+      <rect width="520" height="344" rx="16" fill="#18202a" stroke="#2a3440" stroke-width="2"/>
+      <text x="32" y="54" fill="#e8edf2" font-size="32" font-weight="700">Decision</text>
+      <text x="200" y="54" fill="#8b98a5" font-size="20" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">/oss-scout decide</text>
+      <text x="32" y="100" fill="#e0a43a" font-size="22">"Should I build this myself?"</text>
+      <g fill="#c3ccd5" font-size="20">
+        <text x="32" y="148">1  complete products first</text>
+        <text x="32" y="182">2  split into 3–7 capabilities</text>
+        <text x="32" y="216">3  closest-match search before BUILD</text>
+        <text x="32" y="250">4  REUSE / ADAPT / BUILD each one</text>
+      </g>
+      <line x1="32" y1="276" x2="488" y2="276" stroke="#2a3440" stroke-width="2"/>
+      <text x="32" y="316" fill="#3fb68b" font-size="18" font-weight="700" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">USE EXISTING · ASSEMBLE · BUILD THE GAP</text>
+    </g>
+
+    <g id="discovery" transform="translate(620 48)">
+      <rect width="520" height="344" rx="16" fill="#18202a" stroke="#2a3440" stroke-width="2"/>
+      <text x="32" y="54" fill="#e8edf2" font-size="32" font-weight="700">Discovery</text>
+      <text x="218" y="54" fill="#8b98a5" font-size="20" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">/oss-scout discover</text>
+      <text x="32" y="100" fill="#e0a43a" font-size="22">"Which OSS fits this best?"</text>
+      <g fill="#c3ccd5" font-size="20">
+        <text x="32" y="148">1  name the 2–5 use cases you care about</text>
+        <text x="32" y="182">2  search products, niche, frameworks</text>
+        <text x="32" y="216">3  score fit: coverage · domain · integration</text>
+        <text x="32" y="250">4  stars never add points</text>
+      </g>
+      <line x1="32" y1="276" x2="488" y2="276" stroke="#2a3440" stroke-width="2"/>
+      <text x="32" y="316" fill="#3fb68b" font-size="20" font-weight="700" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">5–10 ranked projects + top picks</text>
+    </g>
+  </g>
+</svg>

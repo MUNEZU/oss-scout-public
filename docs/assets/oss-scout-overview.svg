@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">OSS Scout: search before you build</title>
+  <desc id="desc">Five-stage flow. A request is framed around the real job, routed to Discovery or Decision, every GitHub candidate is checked with the evidence script, and the result is a ranked shortlist or a USE EXISTING, ADAPT or BUILD verdict.</desc>
+
+  <rect width="1200" height="400" rx="24" fill="#11161c"/>
+
+  <g id="header" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">
+    <text x="60" y="70" fill="#e8edf2" font-size="40" font-weight="700">OSS Scout</text>
+    <text x="268" y="70" fill="#8b98a5" font-size="24">search before you build</text>
+    <text x="1140" y="70" fill="#8b98a5" font-size="18" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">illustration · not a screenshot</text>
+  </g>
+
+  <g id="flow" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">
+    <!-- arrows -->
+    <g stroke="#3a4654" stroke-width="3" fill="none">
+      <path d="M254 232 H276"/><path d="M470 232 H492"/><path d="M686 232 H708"/><path d="M902 232 H924"/>
+    </g>
+    <g fill="#3a4654">
+      <path d="M276 224 L288 232 L276 240 Z"/><path d="M492 224 L504 232 L492 240 Z"/><path d="M708 224 L720 232 L708 240 Z"/><path d="M924 224 L936 232 L924 240 Z"/>
+    </g>
+
+    <g transform="translate(60 120)">
+      <rect width="194" height="224" rx="14" fill="#18202a" stroke="#2a3440" stroke-width="2"/>
+      <text x="20" y="40" fill="#8b98a5" font-size="18" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">01</text>
+      <text x="20" y="76" fill="#e8edf2" font-size="24" font-weight="700">Request</text>
+      <text x="20" y="116" fill="#c3ccd5" font-size="19">"I want to build…"</text>
+      <text x="20" y="144" fill="#c3ccd5" font-size="19">"show me OSS for…"</text>
+      <text x="20" y="172" fill="#c3ccd5" font-size="19">or /oss-scout</text>
+    </g>
+
+    <g transform="translate(288 120)">
+      <rect width="182" height="224" rx="14" fill="#18202a" stroke="#2a3440" stroke-width="2"/>
+      <text x="20" y="40" fill="#8b98a5" font-size="18" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">02</text>
+      <text x="20" y="76" fill="#e8edf2" font-size="24" font-weight="700">Frame</text>
+      <text x="20" y="116" fill="#c3ccd5" font-size="19">infer the real</text>
+      <text x="20" y="144" fill="#c3ccd5" font-size="19">job-to-be-done</text>
+      <text x="20" y="184" fill="#e0a43a" font-size="19">≤1 question,</text>
+      <text x="20" y="210" fill="#e0a43a" font-size="19">only if ambiguous</text>
+    </g>
+
+    <g transform="translate(504 120)">
+      <rect width="182" height="224" rx="14" fill="#18202a" stroke="#2a3440" stroke-width="2"/>
+      <text x="20" y="40" fill="#8b98a5" font-size="18" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">03</text>
+      <text x="20" y="76" fill="#e8edf2" font-size="24" font-weight="700">Search</text>
+      <text x="20" y="116" fill="#c3ccd5" font-size="19">Discovery or</text>
+      <text x="20" y="144" fill="#c3ccd5" font-size="19">Decision, with</text>
+      <text x="20" y="172" fill="#c3ccd5" font-size="19">niche wording</text>
+      <text x="20" y="200" fill="#c3ccd5" font-size="19">before BUILD</text>
+    </g>
+
+    <g transform="translate(720 120)">
+      <rect width="182" height="224" rx="14" fill="#18202a" stroke="#3fb68b" stroke-width="2"/>
+      <text x="20" y="40" fill="#8b98a5" font-size="18" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">04</text>
+      <text x="20" y="76" fill="#e8edf2" font-size="24" font-weight="700">Evidence</text>
+      <text x="20" y="116" fill="#c3ccd5" font-size="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">license</text>
+      <text x="20" y="144" fill="#c3ccd5" font-size="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">pushed_at</text>
+      <text x="20" y="172" fill="#c3ccd5" font-size="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">archived</text>
+      <text x="20" y="200" fill="#3fb68b" font-size="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">fetched_at ✓</text>
+    </g>
+
+    <g transform="translate(936 120)">
+      <rect width="204" height="224" rx="14" fill="#18202a" stroke="#2a3440" stroke-width="2"/>
+      <text x="20" y="40" fill="#8b98a5" font-size="18" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">05</text>
+      <text x="20" y="76" fill="#e8edf2" font-size="24" font-weight="700">Result</text>
+      <text x="20" y="116" fill="#c3ccd5" font-size="19">ranked shortlist</text>
+      <text x="20" y="144" fill="#8b98a5" font-size="18">or a verdict:</text>
+      <text x="20" y="180" fill="#3fb68b" font-size="20" font-weight="700" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">USE EXISTING</text>
+      <text x="20" y="208" fill="#c3ccd5" font-size="19" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">ADAPT · BUILD</text>
+    </g>
+  </g>
+</svg>

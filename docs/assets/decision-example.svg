@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+  <title id="title">Decision example: OpenAPI to TypeScript client CLI</title>
+  <desc id="desc">Illustrated, condensed Decision result. The product-first check finds hey-api/openapi-ts, orval, openapi-typescript and openapi-generator. Every capability is REUSE with MIT or Apache-2.0 licenses and 2026 push dates fetched by the evidence script. Overall: USE EXISTING, with no gap worth building.</desc>
+
+  <rect width="1200" height="600" rx="24" fill="#0d1117"/>
+
+  <g id="window-bar">
+    <rect width="1200" height="56" rx="24" fill="#18202a"/>
+    <rect y="32" width="1200" height="24" fill="#18202a"/>
+    <circle cx="44" cy="28" r="8" fill="#3a4654"/><circle cx="72" cy="28" r="8" fill="#3a4654"/><circle cx="100" cy="28" r="8" fill="#3a4654"/>
+    <text x="1156" y="35" fill="#8b98a5" font-size="18" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">illustration · condensed from a verified run, 2026-10-06</text>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20">
+    <text x="48" y="106" fill="#8b98a5">&gt;</text>
+    <text x="72" y="106" fill="#e8edf2">/oss-scout decide a CLI that generates TypeScript API clients</text>
+    <text x="72" y="134" fill="#e8edf2">from OpenAPI specs</text>
+
+    <text x="48" y="186" fill="#e0a43a">Product-first check</text>
+    <text x="72" y="216" fill="#c3ccd5">hey-api/openapi-ts · orval · openapi-typescript · openapi-generator</text>
+
+    <text x="48" y="268" fill="#e0a43a">Capabilities</text>
+    <g fill="#c3ccd5">
+      <text x="72" y="298">C1 OpenAPI parsing</text><text x="384" y="298" fill="#3fb68b" font-weight="700">REUSE</text><text x="480" y="298">hey-api/openapi-ts</text><text x="732" y="298">MIT</text>
+      <text x="72" y="328">C2 typed TS clients</text><text x="384" y="328" fill="#3fb68b" font-weight="700">REUSE</text><text x="480" y="328">hey-api/openapi-ts</text><text x="732" y="328">MIT</text>
+      <text x="72" y="358">C3 CLI packaging</text><text x="384" y="358" fill="#3fb68b" font-weight="700">REUSE</text><text x="480" y="358">each candidate ships a CLI</text>
+    </g>
+
+    <text x="48" y="410" fill="#e0a43a">Evidence</text>
+    <text x="72" y="440" fill="#c3ccd5">pushed 2026-09-30 · archived false · fetched 2026-10-06T13:32Z</text>
+    <text x="72" y="470" fill="#c3ccd5">confidence medium (capability checked in docs only)</text>
+
+    <line x1="48" y1="500" x2="1152" y2="500" stroke="#2a3440" stroke-width="2"/>
+    <text x="48" y="544" fill="#e8edf2">Overall:</text>
+    <text x="168" y="544" fill="#3fb68b" font-weight="700">USE EXISTING</text>
+    <text x="384" y="544" fill="#8b98a5">Gap worth building: none</text>
+  </g>
+</svg>
